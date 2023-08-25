@@ -128,7 +128,9 @@ STATICFILES_DIRS = [
     BASE_DIR / 'static'
 ]
 
-# STATIC_ROOT = 
+AUTH_USER_MODEL = 'base.User'
+MEDIA_URL = '/images/'
+MEDIA_ROOT = BASE_DIR / 'static/images'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
